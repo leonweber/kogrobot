@@ -1,0 +1,6 @@
+skimage
+lxml
+sklearn
+numpy
+cv2
+tqdm
