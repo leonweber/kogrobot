@@ -110,8 +110,8 @@ with open('results.csv','w') as f:
             f.write(',{}, {}, {}, {}'.format(box[0][0], box[0][1], box[1][0], box[1][1]))
         f.write('\n')
         f.flush()
-        test_fname = 'data/test/{}'.format(os.path.basename(img_fname))
-        cv2.imwrite(test_fname, img)
+        #test_fname = 'data/test/{}'.format(os.path.basename(img_fname))
+        #cv2.imwrite(test_fname, img)
 
 
 
